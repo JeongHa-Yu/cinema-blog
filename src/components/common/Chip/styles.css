@@ -1,0 +1,12 @@
+.chip {
+    font-size: 0.8rem;
+    background: linear-gradient(to right, #385170, #9fd3c7);
+    /* 배경색을 왼쪽에서 오른쪽으로 그라데이션 효과를 적용한 선형 그라데이션으로 설정 */
+    color: #ececec;
+    padding: 0.3rem 0.5rem;
+    /* 요소의 내부 여백을 위, 아래로 0.3rem, 좌, 우로 0.5rem으로 지정 */
+    border-radius: 5px;
+    width: fit-content;
+    text-transform: capitalize;
+  }
+  

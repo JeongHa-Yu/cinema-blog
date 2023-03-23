@@ -1,0 +1,24 @@
+.blogList-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+      /* 3개의 열을 생성하고 각 열의 크기는 1fr로 정의됨. fr은 그리드 컨테이너의 가용 공간 중 일부를 차지하는 비율 */
+    grid-gap: 3rem;
+    /* 그리드 간격. 3rem의 간격으로 열과 행 사이의 간격이 설정됨. */
+  }
+  
+  @media (max-width: 768px) {
+    /* 뷰 포트 너비가 768px 이하일 때 적용됨 */
+    .blogList-wrap {
+      grid-template-columns: repeat(2, 1fr);
+      /* 위와 같이 변경됨 */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    /* 뷰 포트 너비가 600px 이하일 때 적용됨 */
+    .blogList-wrap {
+      grid-template-columns: repeat(1, 1fr);
+      /* 위와 같이 변경됨 */
+    }
+  }
+  

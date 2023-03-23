@@ -1,0 +1,10 @@
+.empty-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+  }
+  .empty-wrap img {
+    max-width: 250px;
+    width: 100%;
+  }
+  
